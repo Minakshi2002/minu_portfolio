@@ -1,0 +1,255 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    background-color: black;
+    border: 2px solid white;
+}
+nav p{
+    font-size: 50px;
+    display: inline;
+    color: white;
+    margin: 20px ;
+    padding: 10px;
+}
+nav ul {
+    display: flex;
+    float: right;
+}
+nav ul li {
+    list-style: none;
+    margin: 10px;
+    padding: 5px;
+    margin: 20px 5px 20px 0px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+}
+nav ul li a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 2px;
+    box-shadow: 2px 2px  5px aqua;
+}
+body{
+    background-image: url("https://wallpaperaccess.com/full/5651980.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-attachment: fixed;
+}
+.h img{
+    display: inline;
+    width: 25vw;
+    height: 25vw;
+    float: right;
+    border-radius: 20px;
+    box-shadow: 0 0 25px white;
+    margin: 140px 10px 0px 200px;
+}
+body h1{
+    font-size: 4vw;
+    display: inline;
+    float: right;
+    margin: 90px 40px 0px 0px ;
+    color: rgb(99, 11, 22); 
+}
+body h2{
+    font-size: 30px;
+    display: inline;
+    margin: 110px 0px 0px 400px;
+    color: rgb(36, 3, 118);
+}
+ p img{
+    width: 60px;
+    height: 55px;
+    margin:10px 2px 0px 0px;
+}
+ p{
+    text-align: justify;
+    font-size: 15px;
+    margin: 25px 0px 0px 100px;
+    background-color: transparent;
+    color: white;
+}
+button{
+    margin: 100px 0px 0px 300px;
+    font-size: large;
+    padding:10px;
+    border-radius: 25px;
+    background-color:black;
+    color:white;
+    border:2px solid white;
+    box-shadow: 0 0 25px aqua;    
+}
+button a{
+    text-decoration: none;
+    color:white;
+    padding: 12px;
+     
+}
+button:hover a{
+    background-color:white;
+    color:black;
+    border-radius: 25px;
+    
+}
+.ab h1 {
+    font-size: 2vw;
+    margin: 200px 620px 0px 0px;
+    background-color: white;
+    color: rgb(180, 2, 2);
+    padding: 10px;
+}
+.ab h1:hover{
+    background-color:aqua;
+    color:black;
+}
+.contener{
+    width: 100px;
+    height: auto;
+    display: flex;
+    margin: 300px 0px 5px 200px;
+}
+.contener2{
+    width: 100px;
+    height: auto;
+    display: flex;
+    margin: 30px 0px 5px 200px;
+}
+.box img{
+    width: 10vw;
+    height: 10vw;
+    margin: 10px 0px 5px 100px;
+    box-shadow:0 0 25px aqua ;
+}
+.box img:hover{
+    transform: scale(1.1);
+}
+.cf h1{
+    font-size: 2vw;
+    margin: 110px 40vw 30px 40vw;
+    background-color: white;
+    color: brown;
+    padding: 10px;
+}
+.cf h1:hover{
+   background-color: aqua;
+   color: black;
+}
+.container img{
+    width: 100%;
+    object-fit: cover;
+    box-shadow: 0 0 20px white;
+}
+.swiper{
+    width: 80%;
+    height: fit-content;
+}
+.swiper-slide img{
+    width: 100%;
+}
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+    color:blue;
+}
+.swiper .swiper-pagination-bullet-active{
+    background: #fff;
+}
+.ed h1{
+    font-size: 2vw;
+    margin: 100px 45vw 30px 40vw;
+    background-color: white;
+    color: brown;
+    padding: 10px;
+}
+.ed h1:hover{
+    background-color:aqua;
+    color:black;
+}
+.g img{
+    width: 20vw;
+    height: 15vw;
+    float: right;
+    margin: 0px 200px 30px 0px;
+    box-shadow: 0 0 25px aqua;
+}
+.ed h2{
+    color:white;
+    margin: 0px 0px 0px 25vw;
+}
+.ed2 h3{
+    margin: 0px 0px 0px 25vw;
+    color: white;
+    font-size: 2vw;
+}
+.ed2 h4{
+    margin: 0px 0px 0px 25vw;
+    color: white;
+    font-size: 2vw;
+}
+.ed2 p{
+    margin: 0px 0px 0px 25vw;
+    color:white;
+    font-size: 2vw;
+}
+.arr{
+    margin: 50px 0px 10px 30vw;
+    width: 100px;
+    height: 100px;
+}
+.arr img{
+    width: 120px;
+    height: 150px;
+    box-shadow: none;
+}
+.hi2 img{
+    width: 20vw;
+    height: 15vw;
+    float: right;
+    margin: 55px 200px 30px 0px;
+    box-shadow: 0 0 25px aqua;
+}
+.hp h3{
+    color: white;
+    margin: 50px 0px 0px 25vw;
+    font-size: 3vw;
+}
+.hp p{
+    margin: 20px 0px 0px 25vw;
+    font-size: 25px;
+    color:white;
+}
+footer{
+    background-color: black;
+    margin: 300px 0px 0px 0px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 2px 25px aqua;
+}
+footer h3 {
+    margin: 20px 0px 10px 0px;
+    font-size: 30px;
+    
+}
+footer p{
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+    font-size: 20px;
+}
+footer p i {
+    text-align: center;
+    margin: 0px;
+    font-size: 20px;
+}
+footer a i{
+    margin: 20px;
+    padding: 10px;
+}
+footer a i:hover{
+    box-shadow: 0 0 10px white;
+    border-radius: 360px;
+}
